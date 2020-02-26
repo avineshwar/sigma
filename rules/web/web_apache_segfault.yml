@@ -1,7 +1,10 @@
 title: Apache Segmentation Fault
-description: Detects a segmentation fault error message caused by a creashing apacke worker process 
+id: 1da8ce0b-855d-4004-8860-7d64d42063b1
+description: Detects a segmentation fault error message caused by a creashing apacke worker process
 author: Florian Roth
-reference: http://www.securityfocus.com/infocus/1633
+date: 2017/02/28
+references:
+    - http://www.securityfocus.com/infocus/1633
 logsource:
     product: apache
 detection:
@@ -11,4 +14,3 @@ detection:
 falsepositives:
     - Unknown
 level: high
-
